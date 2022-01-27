@@ -1,0 +1,55 @@
+mat-card{
+    width: 300px;
+}
+
+h1{
+    text-align: center;
+    margin: 30px;
+    font-size: 30px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+}
+
+.sub-container{
+    width: fit-content;
+    display: flex;
+    gap: 20px;
+}
+
+h4{
+    position: relative;
+    top: 15px;
+}
+.sub-form{
+    display: flex;
+    flex-direction: row;
+}
+
+.canvas{
+    width: 500px;
+    background-color: darkgray;
+}
+
+.red{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+.blue{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+
+#blocks{
+    gap: 15px;
+}
+
+
+
